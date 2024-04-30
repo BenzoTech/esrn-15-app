@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.benzo.esrn15.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/areaFragment"
+        android:name="com.benzo.esrn15.ui.area.AreaFragment"
+        android:label="fragment_area"
+        tools:layout="@layout/fragment_area" />
+    <fragment
+        android:id="@+id/calendarioFragment"
+        android:name="com.benzo.esrn15.ui.calendario.CalendarioFragment"
+        android:label="fragment_calendario3"
+        tools:layout="@layout/fragment_calendario3" />
+
+</navigation>
