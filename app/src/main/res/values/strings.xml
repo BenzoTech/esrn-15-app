@@ -3,7 +3,28 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="titulo">ESRN15</string>
+
+    //Menu
     <string name="area">Area</string>
     <string name="home">Home</string>
     <string name="calendario">Calendario</string>
+
+    //Turnos
+    <string name="turnoTarde">T.T.</string>
+    <string name="turnoMañana">T.M.</string>
+
+    //Agrupamientos
+    <string name="primeroPrimera">1°1°</string>
+    <string name="primeroSegunda">1°2°</string>
+    <string name="primeroTercera">1°3°</string>
+    <string name="segundoPrimera">2°1°</string>
+    <string name="segundoSegunda">2°2°</string>
+    <string name="segundoTercera">2°3°</string>
+    <string name="terceroPrimera">3°1°</string>
+    <string name="terceroSegunda">3°2°</string>
+    <string name="terceroTercera">3°3°</string>
+
+
+
 </resources>
