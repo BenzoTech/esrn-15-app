@@ -3,8 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment"
-    android:background="@color/background">
+    android:background="@color/background"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAgrupacion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 
 </FrameLayout>
